@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Azkari</string>
+    <string-array name="elsabah">
+        <item>  اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله سبحان الله</item>
+        <item> اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله الحمد لله</item>
+        <item>لا اله الا الله</item>
+        <item>محمد رسول الله</item>
+        <item>اشهد ان محمد رسول الله</item>
+        <item>لا خول ولا قوة الا بالله</item>
+        <item>استغفر الله العظيم</item>
+        <item>لا اله الا انت سبحانك اني كنت من الظالمين</item>
+        <item>الله اكبر</item>
+        <item>يارب</item>
+    </string-array>
+    <string-array name="num">
+        <item>3</item>
+        <item>3</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>10</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>10</item>
+    </string-array>
+</resources>

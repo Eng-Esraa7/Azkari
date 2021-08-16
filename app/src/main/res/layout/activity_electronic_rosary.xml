@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/is"
+    tools:context=".ElectronicRosary">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100px"
+                    android:gravity="center"
+                    android:text="السبحه الإلكترونيه"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rosary"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="200px"
+                    android:background="@drawable/rosaryshape"
+                    android:gravity="center|center_horizontal|top"
+                    android:paddingTop="100px"
+                    android:textColor="#F1EDED"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnrosary"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-200px"
+                    android:background="@drawable/rosarybtn"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/reset"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="80px"
+                    android:layout_marginLeft="80px"
+                    android:layout_marginTop="-50px"
+                    android:background="@drawable/rosarybtn"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150px"
+                    android:gravity="center"
+                    android:text="أقصي عدد من المرات تم الوصول إليها"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/maxcnt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
